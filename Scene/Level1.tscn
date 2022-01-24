@@ -1,0 +1,13 @@
+[gd_scene format=2]
+
+[node name="Level1" type="Node2D"]
+
+[node name="Button" type="Button" parent="."]
+margin_left = 439.0
+margin_top = 135.0
+margin_right = 568.0
+margin_bottom = 196.0
+text = "播放"
+__meta__ = {
+"_edit_use_anchors_": false
+}

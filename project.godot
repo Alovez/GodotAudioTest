@@ -1,0 +1,38 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+[application]
+
+config/name="TestAudio"
+run/main_scene="res://Scene/Test.tscn"
+config/icon="res://icon.png"
+
+[audio]
+
+enable_audio_input=true
+
+[display]
+
+window/size/width=960
+window/size/height=640
+window/size/resizable=false
+window/stretch/mode="2d"
+
+[locale]
+
+locale_filter=[ 0, [ "en", "zh_CN", "zh_HK", "zh_TW" ] ]
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
